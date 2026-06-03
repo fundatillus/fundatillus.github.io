@@ -1,0 +1,40 @@
+---
+layout: default
+title: Blog
+description: "Writing on spirituality, quantum physics, politics, human rights, psychedelics, technology, and more."
+---
+
+<section class="page-hero">
+  <div class="container">
+    <h1>Blog</h1>
+    <p class="subtitle">Writing on the things that matter.</p>
+  </div>
+</section>
+
+<div class="blog-list">
+  <div class="blog-list-inner">
+    <div class="prose-wrap">
+      {% if site.posts.size > 0 %}
+        {% for post in site.posts %}
+        <article class="post-card">
+          <div class="post-card-meta">
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+            {% if post.categories.first %}
+            <span class="cat">{{ post.categories.first }}</span>
+            {% endif %}
+          </div>
+          <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+          {% if post.excerpt %}
+          <p class="excerpt">{{ post.excerpt | strip_html | truncatewords: 35 }}</p>
+          {% endif %}
+          <a href="{{ post.url | relative_url }}" class="read-more">Read more &rarr;</a>
+        </article>
+        {% endfor %}
+      {% else %}
+        <div class="blog-empty">
+          <p>Writing is on its way. Check back soon.</p>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>

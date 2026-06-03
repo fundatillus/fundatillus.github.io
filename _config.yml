@@ -1,0 +1,37 @@
+title: Fundatillus
+tagline: Grounded in reason. Illuminated by wonder.
+author: Adam Clements
+email: fundatillus@pm.me
+description: >-
+  The personal site of Adam Clements — writer, thinker, seeker.
+  Grounded in reason. Open to the extraordinary.
+
+baseurl: ""
+url: "https://fundatillus.com"
+
+github_username: fundatillus
+linkedin_username: clementsjoshua
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+sass:
+  style: compressed
+
+permalink: /blog/:year/:month/:day/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .DS_Store
+  - LICENSE
+  - README.md

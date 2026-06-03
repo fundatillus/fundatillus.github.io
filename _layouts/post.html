@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<section class="post-header">
+  <div class="container">
+    <div class="meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+      {% if page.categories.first %}
+      <span class="cat">{{ page.categories.first }}</span>
+      {% endif %}
+    </div>
+    <h1>{{ page.title }}</h1>
+  </div>
+</section>
+
+<div class="prose post-prose">
+  {{ content }}
+</div>
+
+<div class="post-footer">
+  <div class="container">
+    <a href="{{ '/blog/' | relative_url }}" class="back-link">&#8592; All posts</a>
+  </div>
+</div>

@@ -4,15 +4,16 @@
 <svg
    version="1.1"
    id="svg1"
-   width="1333.3333"
-   height="1333.3333"
-   viewBox="0 0 1333.3333 1333.3333"
+   width="397.32401"
+   height="397.32266"
+   viewBox="0 0 397.32402 397.32268"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
      id="defs1" />
   <g
-     id="layer-MC0">
+     id="layer-MC0"
+     transform="translate(-468.00398,-468.00523)">
     <path
        id="path1"
        d="M 0,0 H 1000 V 1000 H 0 Z"

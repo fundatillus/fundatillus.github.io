@@ -4,15 +4,16 @@
 <svg
    version="1.1"
    id="svg1"
-   width="1333.3333"
-   height="1333.3333"
-   viewBox="0 0 1333.3333 1333.3333"
+   width="681.3255"
+   height="278.47574"
+   viewBox="0 0 681.32553 278.47575"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
      id="defs1" />
   <g
-     id="layer-MC0">
+     id="layer-MC0"
+     transform="translate(-326.00414,-527.4292)">
     <path
        id="path1"
        d="M 0,0 H 1000 V 1000 H 0 Z"
@@ -20,7 +21,7 @@
        transform="matrix(1.3333333,0,0,-1.3333333,0,1333.3333)" />
     <path
        id="path2"
-       d="m 0,0 h -17.887 v -27.467 h -10.896 v 59.208 h 7.974 2.922 26.355 L 7.605,27.219 H -17.887 V 4.521 L 0,4.521 Z"
+       d="m 0,0 h -17.887 v -27.467 h -10.896 v 59.208 h 7.974 2.922 26.355 L 7.605,27.219 H -17.887 V 4.521 H 0 Z"
        style="fill:#c0a047;fill-opacity:1;fill-rule:nonzero;stroke:none"
        transform="matrix(1.3333333,0,0,-1.3333333,364.38147,769.06507)" />
     <path
