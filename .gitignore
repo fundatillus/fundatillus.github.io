@@ -19,3 +19,6 @@ Gemfile.lock
 
 # File system artifacts
 .DS_Store
+
+# Keep drafts out of version control
+_drafts
